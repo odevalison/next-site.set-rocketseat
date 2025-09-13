@@ -1,4 +1,3 @@
-import { Header } from "@/components/header";
 import { PT_Sans_Caption } from "next/font/google";
 
 const ptSansCaption = PT_Sans_Caption({
@@ -8,10 +7,6 @@ const ptSansCaption = PT_Sans_Caption({
 
 export default function Home() {
   return (
-    <div
-      className={`bg-black min-h-screen min-w-full text-white ${ptSansCaption.className}`}
-    >
-      <Header />
-    </div>
+    <div className={`min-h-screen min-w-full ${ptSansCaption.className}`}></div>
   );
 }
