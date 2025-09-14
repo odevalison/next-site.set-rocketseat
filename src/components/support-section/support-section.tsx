@@ -11,7 +11,7 @@ export const SupportSection = () => {
     <section className="mt-14 md:mt-28 py-8 md:py-10 bg-gradient-to-r from-gray-500 to-gray-700">
       <div className="container flex flex-col items-center gap-12">
         <h2
-          className={`${ptSansCaption.className} text-balance text-center text-heading-xl text-gray-100`}
+          className={`${ptSansCaption.className} text-balance text-center text-heading-md md:text-heading-xl text-gray-100`}
         >
           Sua loja de afiliado, simples, do jeito que deveria ser
         </h2>

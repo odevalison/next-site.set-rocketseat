@@ -15,7 +15,7 @@ export const HeroSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[20rem] md:h-[36rem] items-center">
         <div className="flex flex-col items-center justify-center gap-4 md:items-start lg:items-start">
           <h1
-            className={`text-gray-100 text-heading-hg text-center md:text-start lg:text-start ${ptSansCaption.className}`}
+            className={`text-gray-100 text-heading-xl md:text-heading-hg text-center md:text-start lg:text-start ${ptSansCaption.className}`}
           >
             Venda seus produtos como afiliado em um único lugar
           </h1>
@@ -24,13 +24,13 @@ export const HeroSection = () => {
             <div>
               <div className="flex items-center gap-2">
                 <Clock className="text-cyan-100 size-4" />
-                <span className="text-gray-200">
+                <span className="text-gray-200 text-body-sm md:text-body-md">
                   Crie o seu site em menos de 5 minutos
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Store className="text-cyan-100 size-4" />
-                <span className="text-gray-200">
+                <span className="text-gray-200 text-body-sm md:text-body-md">
                   Acompanhe e otimize seu negócio online
                 </span>
               </div>
@@ -38,7 +38,7 @@ export const HeroSection = () => {
           </div>
 
           <div className="text-white flex flex-col gap-2 mt-5 items-center md:items-start lg:items-start">
-            <Button className="w-fit" asChild>
+            <Button className="w-fit" size="lg" asChild>
               <Link href="/criar-loja">
                 Criar loja grátis <ArrowRight />
               </Link>

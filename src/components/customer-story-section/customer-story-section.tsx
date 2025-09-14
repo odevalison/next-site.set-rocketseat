@@ -32,7 +32,7 @@ export const CustomerStorySection = () => {
     <section className="container py-8 md:py-10">
       <div className="flex flex-col items-center gap-12">
         <h2
-          className={`${ptSansCaption.className} text-heading-xl text-gray-100`}
+          className={`${ptSansCaption.className} text-heading-md md:text-heading-xl text-gray-100`}
         >
           Quem utiliza, aprova!
         </h2>
