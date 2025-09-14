@@ -5,13 +5,15 @@ import { ArrowRight, Store } from "lucide-react";
 export const CallToActionSection = () => {
   return (
     <section className="text-white py-14 md:py-20 bg-gradient-to-b from-cyan-950/20 to-gray-700 relative mt-20">
-      <div className="container">
-        <div className="flex flex-col items-center gap-8 md:gap-10 text-center">
-          <div className="absolute w-fit -top-7 p-4 rounded-full bg-cyan-300">
-            <Store className="size-8 text-cyan-100" />
-          </div>
+      <div className="absolute inset-0 bg-[url('/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90" />
 
-          <h2 className="font-sans text-balance text-heading-md md:text-heading-xl text-gray-100 text-center">
+      <div className="absolute w-fit -top-7 left-[50%] -translate-x-1/2 p-4 rounded-full bg-cyan-300">
+        <Store className="size-8 text-cyan-100" />
+      </div>
+
+      <div className="container relative">
+        <div className="flex flex-col items-center gap-8 md:gap-10 text-center">
+          <h2 className="font-sans text-balance text-heading-md md:text-heading-xl text-gray-100 text-center md:max-w-md max-w-full">
             Crie uma loja online e inicie suas vendas ainda hoje
           </h2>
 
