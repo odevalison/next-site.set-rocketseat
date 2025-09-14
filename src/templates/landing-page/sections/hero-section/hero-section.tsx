@@ -1,11 +1,11 @@
 import { ArrowRight, Clock, Store } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <section className="container relative flex items-center justify-center pt-8 pb-10 md:pt-20 md:pb-[7.5rem]">
+    <section className="container relative flex items-center justify-center pt-8 mt-8 pb-10 md:pt-20 md:pb-[7.5rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14 h-[22.5rem] md:h-[31rem] items-center">
         <div className="flex flex-col items-center justify-center gap-6 md:gap-8 md:items-start">
           <h1 className="text-gray-100 text-heading-xl md:text-heading-hg text-center md:text-start font-sans">

@@ -1,6 +1,6 @@
-import { Button } from "../ui/button";
-import { ActiveLink } from "../active-link";
-import { Logo } from "../logo";
+import { Button } from "../../ui/button";
+import { ActiveLink } from "../../active-link";
+import { Logo } from "../../logo";
 import Link from "next/link";
 
 export const Header = () => {
