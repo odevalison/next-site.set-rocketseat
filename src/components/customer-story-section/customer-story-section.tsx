@@ -1,15 +1,9 @@
-import { PT_Sans_Caption } from "next/font/google";
 import Image from "next/image";
-
-const ptSansCaption = PT_Sans_Caption({
-  subsets: ["latin"],
-  weight: "700",
-});
 
 const customersStories = [
   {
     content:
-      "Criar minha loja com o Site.Set foi a melhor decisão para o meu negócio. A plataforma é super intuitiva, e consegui colocar meus produtos à venda em ppucos minutos.",
+      "Criar minha loja com o Site.Set foi a melhor decisão para o meu negócio. A plataforma é super intuitiva, e consegui colocar meus produtos à venda em poucos minutos.",
     author: {
       name: "Annette Bones",
       role: "CEO na Anne Corp",
@@ -29,19 +23,17 @@ const customersStories = [
 
 export const CustomerStorySection = () => {
   return (
-    <section className="container py-8 md:py-10">
-      <div className="flex flex-col items-center gap-12">
-        <h2
-          className={`${ptSansCaption.className} text-heading-md md:text-heading-xl text-gray-100`}
-        >
+    <section className="container py-20 md:py-32">
+      <div className="flex flex-col items-center gap-8 md:gap-12">
+        <h2 className="font-sans text-heading-md md:text-heading-xl text-gray-100">
           Quem utiliza, aprova!
         </h2>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-4 md:gap-6 md:grid-cols-2">
           {customersStories.map((story) => (
             <div
               key={story.author.name}
-              className="flex justify-center flex-col gap-6 rounded-lg bg-gray-500 p-6 md:p-10 border border-gray-400"
+              className="flex justify-center flex-col gap-8 md:gap-10 rounded-xl bg-gray-500 p-6 md:p-10 border border-gray-400"
             >
               <p className="text-body-md text-gray-200">{story.content}</p>
 
@@ -56,9 +48,10 @@ export const CustomerStorySection = () => {
                 </div>
 
                 <div className="flex flex-col gap-1">
-                  <strong className="text-gray-200 text-sm">
+                  <strong className="font-normal text-gray-200 text-sm">
                     {story.author.name}
                   </strong>
+
                   <span className="text-xs text-gray-300">
                     {story.author.role}
                   </span>

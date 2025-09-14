@@ -6,14 +6,12 @@ import { SupportSection } from "@/components/support-section";
 
 export default function Home() {
   return (
-    <>
-      <article className="flex flex-col">
-        <HeroSection />
-        <FeatureSection />
-        <SupportSection />
-        <CustomerStorySection />
-        <CallToActionSection />
-      </article>
-    </>
+    <article className="flex flex-col">
+      <HeroSection />
+      <FeatureSection />
+      <SupportSection />
+      <CustomerStorySection />
+      <CallToActionSection />
+    </article>
   );
 }

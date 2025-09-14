@@ -3,9 +3,9 @@ import type { Config } from "tailwindcss";
 export default {
   darkMode: ["class"],
   content: [
-    "./src/pages/**/*.{js,jsx,ts,tsx,mdx}",
-    "./src/components/**/*.{js,jsx,ts,tsx,mdx}",
-    "./src/app/**/*.{js,jsx,ts,tsx,mdx}",
+    "./src/pages/**/*.{js,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -22,8 +22,8 @@ export default {
         sm: "calc(0.5rem - 4px)",
       },
       fontFamily: {
-        sans: ["PT Sans Caption", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        sans: ["var(--font-sans)", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
       },
       fontSize: {
         /* Headings - PT Sans Caption */
