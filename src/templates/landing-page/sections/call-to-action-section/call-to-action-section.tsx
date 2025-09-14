@@ -4,11 +4,11 @@ import { ArrowRight, Store } from "lucide-react";
 
 export const CallToActionSection = () => {
   return (
-    <section className="text-white py-14 md:py-20 bg-gradient-to-b from-cyan-950/20 to-gray-700 relative mt-20">
+    <section className="text-white py-14 md:py-20 bg-gradient-to-b from-cyan-950/20 to-gray-700 relative">
       <div className="absolute inset-0 bg-[url('/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90" />
 
-      <div className="absolute w-fit -top-7 left-[50%] -translate-x-1/2 p-4 rounded-full bg-cyan-300">
-        <Store className="size-8 text-cyan-100" />
+      <div className="absolute -top-7 left-[50%] -translate-x-1/2 p-4 rounded-full bg-cyan-300">
+        <Store className="text-cyan-100" />
       </div>
 
       <div className="container relative">
