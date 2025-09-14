@@ -41,7 +41,6 @@ export const HeroSection = () => {
             </p>
           </div>
         </div>
-
         <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
           <Image
             src="/hero-image.svg"
